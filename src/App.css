@@ -1,7 +1,17 @@
 @tailwind base;
 
 @layer base {
-    body {
-        @apply text-primary font-primary;
-    }
+  body {
+    @apply text-primary font-primary;
+  }
+}
+
+.custom-height {
+  height: calc(100vh - 280px);
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
 }

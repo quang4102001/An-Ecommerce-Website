@@ -22,11 +22,11 @@ export default {
         xl: '1440px',
       },
       colors: {
-        primary: '$222222',
+        primary: '#222222',
         secondary: '#F5E6E0',
       },
       backgroundImage: {
-        hero:"url('./src/assets/bg_hero.svg)",
+        hero:"url('src/assets/bg_hero.svg')",
       },
     },
   },
